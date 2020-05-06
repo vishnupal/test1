@@ -20,9 +20,14 @@
 ### jenkins will check (test) for the website running in dev-docker environment. If it is running fine then Jenkins will merge the dev branch to master branch and trigger #job 2
 # Requirements
 
-l. Docker httpd Image
-l. Jenkins
-l. Github Plugin
-l. Git and Hooks
-l. Github and Github Webhooks
-l. ngrok
+1. Docker httpd Image
+1. Jenkins
+1. Github Plugin
+1. Git and Hooks
+1. Github and Github Webhooks
+1. ngrok
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
