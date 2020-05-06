@@ -1,1 +1,1 @@
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://www.google.com/imgres?imgurl=https%3A%2F%2Fstackify.com%2Fwp-content%2Fuploads%2F2019%2F04%2Fbig-Feature-Image-for-Blog-Post-DevOps-Engineer-Starter-Guide-1280x720.jpg&imgrefurl=https%3A%2F%2Fstackify.com%2Fdevops-engineer-starter-guide%2F&tbnid=32PZuAUmGXwbgM&vet=12ahUKEwjZrKHy9p_pAhWmjUsFHbcjBTMQMygXegQIARBc..i&docid=MIuk9MgycH4tMM&w=1280&h=720&q=devops&client=firefox-b-d&ved=2ahUKEwjZrKHy9p_pAhWmjUsFHbcjBTMQMygXegQIARBc)
