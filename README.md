@@ -26,8 +26,8 @@
 1. Git and Hooks
 1. Github and Github Webhooks
 1. ngrok
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+## EXPLANATION:
+
+#### JOB 1 :
+
+###### Created a job named test_storage and test_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job test_storage where the code is copied and after successful copy the next job which is chained it with gets initiated and the docker is launched with the configurations same as that of production environment and when QAT team certified it is merged using remote trigger through jenkins
