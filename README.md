@@ -31,7 +31,7 @@
 #### JOB 1 :
 
 #### Created a job named job1 and test_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job1 where the code is copied and after successful copy the next job which is chained it with gets initiated and the docker is launched with the configurations same as that of production environment and when QAT team certified it is merged using remote trigger through jenkins
-![Image of Yaktocat](jobZ1.jpg)
+![Image of Yaktocat](Ss/jobZ1.jpg)
 
 #### JOB 2:
 
