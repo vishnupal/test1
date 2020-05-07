@@ -33,13 +33,13 @@
 #### Created a job named job1 and test_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job1 where the code is copied and after successful copy the next job which is chained it with gets initiated and the docker is launched with the configurations same as that of production environment and when QAT team certified it is merged using remote trigger through jenkins
 
 ## Add repo in the jenkins . This is luanch a Test env when the Developer commit . And deploy test file on the test_env
-![Image of Test_env](Ss/job1.jpg)
+![Image of Test_env](Ss/jobZ1.jpg)
 
 ## It trigger only when github-webhook 
 ![Test_env](Ss/jobI1.jpg)
 
 ## Below scriptis run when jenkins trigger
-![Script_job1](Ss/jobZ1.jpg)
+![Script_job1](Ss/job1.jpg)
 
 #### JOB 2:
 
@@ -52,17 +52,17 @@
 ![Test_env](Ss/jobI2.jpg)
 
 ## Below scriptis run when jenkins trigger
-![Script_job1](Ss/jobZ2.jpg)
+![Script_job1](Ss/jobz2.jpg)
 
 #### JOB 3:
 ### All the configurations are done in Jenkins with job named Job3 and it is triggered by remote trigger by the QAT team and it also initiates the JOb2 and merges the test branch with the master branch; by first building the test branch code files and then merge it to the origin/master branch and then pushed to github and 2nd job is triggered again and deployed to production environment.
 
 ## Add repo in the jenkins . This is luanch a Production env when the Developer commit . And deploy Master file on the test_env
-![Image of Test_env](Ss/jobZ1.jpg)
+![Image of Test_env](Ss/jobZ3.jpg)
 
 ## It trigger only when github-webhook 
-![Test_env](Ss/jobI1.jpg)
+![Test_env](Ss/jobI3.jpg)
 
 ## Below scriptis run when jenkins trigger
-![Script_job1](Ss/job1.jpg)
+![Script_job1](Ss/job3.jpg)
 
