@@ -36,7 +36,7 @@
 ![Image of Test_env](Ss/jobZ1.jpg)
 
 ## It trigger only when github-webhook 
-![Test_env](Ss/job1.jpg)
+![Test_env](Ss/jobI1.jpg)
 
 ## Below scriptis run when jenkins trigger
 ![Script_job1](Ss/job1.jpg)
