@@ -83,7 +83,8 @@
 ## DEVELOPER SIDE 
 
 ##  :grinning: First i created a repository in my base-OS and git initialized it. then going to directory .git/hooks/ inside it I created a post-commit hook which would self push the repository whenever the developer committed something to git. I also added a remote trigger for my job1 after it so after the code was pushed onto GitHub it would automatically trigger job1.
-* test *
+![hook](Ss/hook.jpg)
+
 
 ### Developer craete a html file and commit 
 ![test_image](Ss/test_page.jpg)
