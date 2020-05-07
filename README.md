@@ -5,17 +5,17 @@
 ### 2.Testing
 ### 3.Quality Assurance
 
- ## PROBLEM STATEMENT :
+ ## :clown_face: PROBLEM STATEMENT :
 
-## JOB#1
+## :nerd_face: JOB#1
 
 ### If Developer push to dev branch then Jenkins will fetch from dev and deploy on dev-docker environment.
 
-## JOB#2
+## :monocle_face: JOB#2
 
 ### If Developer push to master branch then Jenkins will fetch from master and deploy on master-docker environment.both dev-docker and master-docker environment are on different docker containers.
 
-## JOB#3
+## :robot: JOB#3
 
 ### jenkins will check (test) for the website running in dev-docker environment. If it is running fine then Jenkins will merge the dev branch to master branch and trigger #job 2
 # Requirements
@@ -28,7 +28,7 @@
 1. ngrok
 ## EXPLANATION:
 
-## JOB 1 :
+## :alien: JOB 1 :
 
 ### Created a job named job1 and test_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job1 where the code is copied and after successful copy the next job which is chained it with gets initiated and the docker is launched with the configurations same as that of production environment and when QAT team certified it is merged using remote trigger through jenkins
 
@@ -51,7 +51,7 @@
 ## 
 
 
-## JOB 2:
+## :ghost: JOB 2:
 
 ### Created a job named job2 and prod_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job2 where the code is copied and after successful copy, the next job which is chained it with gets initiated and the docker is launched with the configurations as done and is again triggered when QAT team certified the test branch code.
 
@@ -69,7 +69,7 @@
 
 ![Test_web](Ss/production_webserver.jpg)
 
-#### JOB 3:
+## :money_mouth_face: JOB 3:
 ### All the configurations are done in Jenkins with job named Job3 and it is triggered by remote trigger by the QAT team and it also initiates the JOb2 and merges the test branch with the master branch; by first building the test branch code files and then merge it to the origin/master branch and then pushed to github and 2nd job is triggered again and deployed to production environment.
 
 ## Source Code Management .This merge the test branch with master branch
@@ -85,7 +85,7 @@
 
 
 
-## DEVELOPER SIDE 
+## :partying_face: DEVELOPER SIDE 
 
 ###  :grinning: First i created a repository in my base-OS and git initialized it. then going to directory .git/hooks/ inside it I created a post-commit hook which would self push the repository whenever the developer committed something to git. I also added a remote trigger for my job1 after it so after the code was pushed onto GitHub it would automatically trigger job1.
 ![hook](Ss/hook.jpg)
@@ -94,11 +94,11 @@
 ### :smile: Developer craete a html file and commit 
 ![test_image](Ss/test_page.jpg)
 
-# After commit 
+# :cowboy_hat_face: After commit 
 ## test webserver 
 ![test_webserver](Ss/test_server.jpg)
-## production server 
+## :partying_face: production server 
 ![production_server](Ss/production_server.jpg)
 
-## After QAT 
+## :sunglasses: After QAT (job3) run test branch merge with master branch and push on github so automatically  job 2 trigger and deploy on the production webserver  
 ![QAT](Ss/after_QAt_production.jpg)
