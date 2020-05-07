@@ -50,7 +50,7 @@
 
 #### Created a job named job2 and prod_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job2 where the code is copied and after successful copy, the next job which is chained it with gets initiated and the docker is launched with the configurations as done and is again triggered when QAT team certified the test branch code.
 
-## Add repo in the jenkins . This is luanch a Production env when the Developer commit . And deploy Master file on the test_env
+## Add repo in the jenkins . This is luanch a Production env when the Developer commit . And deploy Master file on the Production
 ![Production_env](Ss/job2.jpg)
 
 ## It trigger only when github-webhook 
