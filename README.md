@@ -72,5 +72,6 @@
 ![QAT_env](Ss/jobI3.jpg)
 
 ## Push the master branch on github
-![QAT_Script](Ss/job3.jpg)
+![QAT](Ss/job3.jpg)
 
+![QAT_Test](Ss/job3_test.jpg)
