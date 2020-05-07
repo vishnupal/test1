@@ -1,5 +1,5 @@
 ![Image of Devops](https://alln-extcloud-storage.cisco.com/ciscoblogs/5d37d7284e6e8.png)
-
+@octocat
 # Setup three three teams/environemnts
 ### 1.Poduction
 ### 2.Testing
@@ -83,7 +83,7 @@
 ## DEVELOPER SIDE 
 
 ## First i created a repository in my base-OS and git initialized it. then going to directory .git/hooks/ inside it I created a post-commit hook which would self push the repository whenever the developer committed something to git. I also added a remote trigger for my job1 after it so after the code was pushed onto GitHub it would automatically trigger job1.
-** test **
+* test *
 
 ### Developer craete a html file and commit 
 ![test_image](Ss/test_page.jpg)
