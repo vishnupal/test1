@@ -77,3 +77,15 @@
 ![QAT](Ss/job3.jpg)
 
 ![QAT_Test](Ss/job3_test.jpg)
+
+
+
+## DEVELOPER SIDE 
+### Developer craete a html file and commit 
+![test_image](Ss/test_page.jpg)
+
+## After commit test webserver and production server 
+![test_webserver](Ss/test_server.jpg)
+
+![production_server](Ss/production_server.jpg)
+
