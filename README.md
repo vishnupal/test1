@@ -1,5 +1,5 @@
 ![Image of Devops](https://alln-extcloud-storage.cisco.com/ciscoblogs/5d37d7284e6e8.png)
-
+:smile: :smile: :smile: :smile: :smile: :smile:
 # Setup three three teams/environemnts
 ### 1.Poduction
 ### 2.Testing
@@ -28,11 +28,13 @@
 1. ngrok
 ## EXPLANATION:
 
-#### JOB 1 :
+## JOB 1 :
 
-#### Created a job named job1 and test_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job1 where the code is copied and after successful copy the next job which is chained it with gets initiated and the docker is launched with the configurations same as that of production environment and when QAT team certified it is merged using remote trigger through jenkins
+### Created a job named job1 and test_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job1 where the code is copied and after successful copy the next job which is chained it with gets initiated and the docker is launched with the configurations same as that of production environment and when QAT team certified it is merged using remote trigger through jenkins
 
-## Add repo in the jenkins . This is luanch a Test env when the Developer commit . And deploy test file on the test_env
+
+### I create a github-webhook so when the Developer_2  commit jenkins job1 auto run and first remove older test_env and create a new test_env every time on same docker image use.
+
 ![Image of Test_env](Ss/jobZ1.jpg)
 
 ## It trigger only when github-webhook 
@@ -42,19 +44,22 @@
 ![Script_job1](Ss/job1.jpg)
 
 ![Test_job1](Ss/job1_test.jpg)
+
+## After commit job
 ![Test_web](Ss/test_webserver.jpg)
 
 ## 
 
 
-#### JOB 2:
+## JOB 2:
 
-#### Created a job named job2 and prod_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job2 where the code is copied and after successful copy, the next job which is chained it with gets initiated and the docker is launched with the configurations as done and is again triggered when QAT team certified the test branch code.
+### Created a job named job2 and prod_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job2 where the code is copied and after successful copy, the next job which is chained it with gets initiated and the docker is launched with the configurations as done and is again triggered when QAT team certified the test branch code.
 
-## Add repo in the jenkins . This is luanch a Production env when the Developer commit . And deploy Master file on the Production
+
+## I also craete  github-webhook so when the Develope_1  commit jenkins job2 auto run and create   production_env and  every time same docker image use.
 ![Production_env](Ss/job2.jpg)
 
-## It trigger only when github-webhook 
+## It trigger only when Developer_1 commit
 ![Production_env](Ss/jobI2.jpg)
 
 ## Below scriptis run when jenkins trigger
@@ -82,11 +87,11 @@
 
 ## DEVELOPER SIDE 
 
-##  :grinning: First i created a repository in my base-OS and git initialized it. then going to directory .git/hooks/ inside it I created a post-commit hook which would self push the repository whenever the developer committed something to git. I also added a remote trigger for my job1 after it so after the code was pushed onto GitHub it would automatically trigger job1.
+###  :grinning: First i created a repository in my base-OS and git initialized it. then going to directory .git/hooks/ inside it I created a post-commit hook which would self push the repository whenever the developer committed something to git. I also added a remote trigger for my job1 after it so after the code was pushed onto GitHub it would automatically trigger job1.
 ![hook](Ss/hook.jpg)
 
 
-### Developer craete a html file and commit 
+### :smile: Developer craete a html file and commit 
 ![test_image](Ss/test_page.jpg)
 
 # After commit 
