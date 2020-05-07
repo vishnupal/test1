@@ -1,4 +1,4 @@
-![Image of Yaktocat](https://alln-extcloud-storage.cisco.com/ciscoblogs/5d37d7284e6e8.png)
+![Image of Devops](https://alln-extcloud-storage.cisco.com/ciscoblogs/5d37d7284e6e8.png)
 
 # Setup three three teams/environemnts
 ### 1.Poduction
@@ -31,11 +31,11 @@
 #### JOB 1 :
 
 #### Created a job named job1 and test_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job1 where the code is copied and after successful copy the next job which is chained it with gets initiated and the docker is launched with the configurations same as that of production environment and when QAT team certified it is merged using remote trigger through jenkins
+![Image of Yaktocat](https://alln-extcloud-storage.cisco.com/ciscoblogs/5d37d7284e6e8.png)
 
+#### JOB 2:
 
-JOB 2:
+#### Created a job named job2 and prod_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job job2 where the code is copied and after successful copy, the next job which is chained it with gets initiated and the docker is launched with the configurations as done and is again triggered when QAT team certified the test branch code.
 
-Created a job named prod_storage and prod_env for this ,the developer when commits it pushes to github automatically using git post-commit hook and github webhook triggered job test_storage where the code is copied and after successful copy, the next job which is chained it with gets initiated and the docker is launched with the configurations as done and is again triggered when QAT team certified the test branch code.
-
-
-All the configurations are done in Jenkins with job named QAT_MERGE and it is triggered by remote trigger by the QAT team and it also initiates the JOb2 and merges the test branch with the master branch; by first building the test branch code files and then merge it to the origin/master branch and then pushed to github and 2nd job is triggered again and deployed to production environment.
+#### JOB 3:
+### All the configurations are done in Jenkins with job named Job3 and it is triggered by remote trigger by the QAT team and it also initiates the JOb2 and merges the test branch with the master branch; by first building the test branch code files and then merge it to the origin/master branch and then pushed to github and 2nd job is triggered again and deployed to production environment.
