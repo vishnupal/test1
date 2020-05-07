@@ -41,6 +41,8 @@
 ## Below scriptis run when jenkins trigger
 ![Script_job1](Ss/job1.jpg)
 
+![Test_job1](Ss/job1_test.jpg)
+
 ## 
 
 
@@ -56,6 +58,9 @@
 
 ## Below scriptis run when jenkins trigger
 ![Production_Script](Ss/jobz2.jpg)
+
+![Test_job2](Ss/job2_test.jpg)
+
 
 #### JOB 3:
 ### All the configurations are done in Jenkins with job named Job3 and it is triggered by remote trigger by the QAT team and it also initiates the JOb2 and merges the test branch with the master branch; by first building the test branch code files and then merge it to the origin/master branch and then pushed to github and 2nd job is triggered again and deployed to production environment.
