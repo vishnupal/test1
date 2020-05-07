@@ -61,7 +61,7 @@
 ### All the configurations are done in Jenkins with job named Job3 and it is triggered by remote trigger by the QAT team and it also initiates the JOb2 and merges the test branch with the master branch; by first building the test branch code files and then merge it to the origin/master branch and then pushed to github and 2nd job is triggered again and deployed to production environment.
 
 ## Source Code Management .This merge the test branch with master branch
-![QAT_env(Ss/jobZ3.jpg)
+![QAT_env](Ss/jobZ3.jpg)
 
 ## For runnig the Job3 create a token
 ![QAT_env](Ss/jobI3.jpg)
