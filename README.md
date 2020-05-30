@@ -1,7 +1,7 @@
 ![Image of Devops](https://alln-extcloud-storage.cisco.com/ciscoblogs/5d37d7284e6e8.png)
 # :smile: :smile: :smile: :smile: :smile: :smile:
 # Setup three three teams/environemnts
-### 1.Poduction
+### 1.Production
 ### 2.Testing
 ### 3.Quality Assurance
 
